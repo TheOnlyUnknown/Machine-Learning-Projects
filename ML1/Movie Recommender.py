@@ -55,7 +55,6 @@ movies['tags'] = movies['overview'] + movies['genres'] + movies['keywords'] + mo
 
 new_df = movies[['movie_id', 'title', 'tags']]
 new_df['tags'] = new_df['tags'].apply(lambda x: " ".join(x)) #All the 
-print(new_df)
 new_df['tags'] = new_df['tags'].apply(lambda x:x.lower())
 
 cv = CountVectorizer(max_features = 5000, stop_words= 'english')
@@ -72,3 +71,12 @@ def stem(text):
 new_df['tags'] = new_df['tags'].apply(stem)
 
 similarity = cosine_similarity(vectors)
+
+def recommend(movie):
+    movie_index = new_df[new_df['title'] == movie].index[0]
+    distances = similarity[movie_index]
+    movies_list = sorted(list(enumerate(distances)), reverse = True, key = lambda x:x[1]) [1: 6]
+    for i in movies_list:
+        print(new_df.iloc[i[0]].title)
+
+recommend('Batman Begins')
