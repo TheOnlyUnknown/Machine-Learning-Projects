@@ -17,6 +17,8 @@ This repo is my hands-on ML learning log. I pick a project at random — small, 
 | [MNIST Digit Classifier](./MNIST/) | Binary classifier (5 vs not-5) using SGDClassifier — covers cross-validation, confusion matrix, precision/recall, F1, and ROC/AUC | In Progress |
 | [Spotify Trend Predictor](./Spotify%20Trend%20Predictor/) | Predicting music trends using Spotify dataset | ✅ Complete |
 | [ML1](./ML1/) | — | ✅ Complete |
+| [World Development Indicator](./World%20Development%20Indicators/)|Predicting World Development using various features affecting the growth| ✅ Complete|
+
 
 ---
 
