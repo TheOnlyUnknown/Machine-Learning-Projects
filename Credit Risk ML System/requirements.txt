@@ -1,0 +1,10 @@
+# Pinned to the environment the model was trained in (Python 3.14.7).
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+scikit-learn==1.9.1
+xgboost==3.4.1
