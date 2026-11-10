@@ -14,7 +14,7 @@ This repo is my hands-on ML learning log. I pick a project at random — small, 
 
 | Project | Description | Status |
 |--------|-------------|--------|
-|[Credit Risk ML System](./Credit%20Risk%20ML%20System/)|Classifying for the Credit Risk using a credit risk dataset from HuggingFace| In Progress |
+|[Credit Risk ML System](./Credit%20Risk%20ML%20System/)|Classifying for the Credit Risk using a credit risk dataset from HuggingFace| ✅ Complete  |
 | [MNIST Digit Classifier](./MNIST/) | Binary classifier (5 vs not-5) using SGDClassifier — covers cross-validation, confusion matrix, precision/recall, F1, and ROC/AUC | ✅ Complete |
 | [Spotify Trend Predictor](./Spotify%20Trend%20Predictor/) | Predicting music trends using Spotify dataset | ✅ Complete |
 | [ML1](./ML1/) | — | ✅ Complete |
