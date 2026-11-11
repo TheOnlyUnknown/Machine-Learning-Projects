@@ -13,12 +13,12 @@ This repo is my hands-on ML learning log. I pick a project at random — small, 
 ## 📂 Projects
 
 | Project | Description | Status |
-|--------|-------------|--------|
-|| [Credit Risk ML System](./Credit%20Risk%20ML%20System/) | Classifying credit risk using a credit risk dataset from HuggingFace. [Live Demo](https://credit-risk-analysis-ufdt.onrender.com) | ✅ Complete |
+|---------|-------------|--------|
+| [Credit Risk ML System](./Credit%20Risk%20ML%20System/) | Classifying credit risk using a credit risk dataset from HuggingFace. [Live Demo](https://credit-risk-analysis-ufdt.onrender.com) | ✅ Complete |
 | [MNIST Digit Classifier](./MNIST/) | Binary classifier (5 vs not-5) using SGDClassifier — covers cross-validation, confusion matrix, precision/recall, F1, and ROC/AUC | ✅ Complete |
 | [Spotify Trend Predictor](./Spotify%20Trend%20Predictor/) | Predicting music trends using Spotify dataset | ✅ Complete |
 | [ML1](./ML1/) | — | ✅ Complete |
-| [World Development Indicator](./World%20Development%20Indicators/)|Predicting World Development using various features affecting the growth| ✅ Complete|
+| [World Development Indicators](./World%20Development%20Indicators/) | Predicting world development using various features affecting growth | ✅ Complete |
 
 
 
